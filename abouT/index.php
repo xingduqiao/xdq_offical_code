@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no" />
+<title>企业活动_星渡桥</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="robots" content="All">
+
+    <link rel="stylesheet" type="text/css" href="/skin/default/style.css">
+    <link rel="stylesheet" type="text/css" href="/skin/default/responsive.css">
+    <script src="/skin/default/jquery.min.js"></script>
+    
+    
+    <!--[if lt IE 9]>
+		    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		    <style type="text/css">
+		        html{ margin-left: 0 !important;}
+		    </style>
+		<![endif]-->
+</head>
+
+<body>
+
+<header class="header">
+        <div class="head-wrap">
+            <h1 class="head-logo"  style="" >
+                <a href="/">
+                    <img src="/skin/default/logo.png" class="img1" alt="星渡桥"   /><img src="/skin/default/logo.png" class="img2" alt="星渡桥"  /></a>
+            </h1>
+            <nav class="nav clearfix">
+                <ul>
+                    
+                  <li><a href="/"  target="_self"  class="yj-link">首页</a></li>				  
+				    
+        
+                        
+ <li class=active><a href="/xxdh/"  target="_self"  class="yj-link">星星渡河</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/about/">关于我们</a></p>
+								
+								
+ 	
+<p><a href="/qywh/">企业文化</a></p>
+								
+								
+ 	
+<p><a href="/fwfw/">服务范围</a></p>
+								
+								
+ 	
+<p><a href="/zzjg/">组织架构</a></p>
+								
+								
+ 	
+<p><a href="/abouT/">企业活动</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/team/"  target="_self"  class="yj-link">团队阵容</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/zjlfc/">总经理风采</a></p>
+								
+								
+ 	
+<p><a href="/zfgw/">政府顾问团队</a></p>
+								
+								
+ 	
+<p><a href="/zdls/">指导老师团队</a></p>
+								
+								
+ 	
+<p><a href="/jlkp/">监理考评团队</a></p>
+								
+								
+ 	
+<p><a href="/hwzx/">话务中心</a></p>
+								
+								
+ 	
+<p><a href="/wazx/">文案中心</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/cpzs/"  target="_self"  class="yj-link">产品展示</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/yzdh/">业主大会</a></p>
+								
+								
+ 	
+<p><a href="/wycjcy/">物业承接查验</a></p>
+								
+								
+ 	
+<p><a href="/wykp/">物业考评</a></p>
+								
+								
+ 	
+<p><a href="/hyzdpx/">行业指导培训</a></p>
+								
+								
+ 	
+<p><a href="/fwal/">服务案例</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/wyxxp/"  target="_self"  class="yj-link">物业选续聘</a>
+                               
+				  
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/flgf/"  target="_self"  class="yj-link">法律规范</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/flfg/">法律法规</a></p>
+								
+								
+ 	
+<p><a href="/zcjx/">政策解析</a></p>
+								
+								
+ 	
+<p><a href="/alfx/">案例分析</a></p>
+								
+								
+ 	
+<p><a href="/gzmb/">工作模板</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/dgfw/"  target="_self"  class="yj-link">订购服务</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/xmzx/"  target="_self"  class="yj-link">项目资讯</a>
+                               
+				  
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/zxzn/"  target="_self"  class="yj-link">物业管理事务智慧库</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/zxzx/">在线咨询</a></p>
+								
+								
+ 	
+<p><a href="/wyfzj/">物业费质价相符估算系统</a></p>
+								
+								
+ 	
+<p><a href="/wyfwkp/">物业服务考评系统</a></p>
+								
+								
+ 	
+<p><a href="/slxt/">上邻系统</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/jmwm/"  target="_self"  class="yj-link">加盟我们</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/jmtj/">加盟条件</a></p>
+								
+								
+ 	
+<p><a href="/job/">人才招聘</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+ 
+              
+                                
+
+                        
+
+                   
+                </ul>
+            </nav>
+            <div class="head-search">
+			<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+			<input type="hidden" name="show" value="title" />
+<input type="hidden" name="tempid" value="1" />
+                <input type="text" name="keyboard" placeholder="内容搜索" id="txt_key" onKeyDown="keydownEvent()"  />
+ <button type="submit"  name='submit' class="search-icon" > </button>
+			</form>	
+				
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="menu-handler">
+        <span></span>
+    </div>
+    <section class="menuBox" id="menuBox">
+        <ul class="menuMoblie" id="menuMoblie">
+
+                    <li><a href="/"   target="_self"   class="nav-link clearfix"  >首页</a>
+                            
+                    </li>
+                 
+<li><a href="/xxdh/"   target="_self"   class="nav-link clearfix"  >星星渡河</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/about/">关于我们</a></p>
+																
+ 	
+<p class="item"><a href="/qywh/">企业文化</a></p>
+																
+ 	
+<p class="item"><a href="/fwfw/">服务范围</a></p>
+																
+ 	
+<p class="item"><a href="/zzjg/">组织架构</a></p>
+																
+ 	
+<p class="item"><a href="/abouT/">企业活动</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/team/"   target="_self"   class="nav-link clearfix"  >团队阵容</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/zjlfc/">总经理风采</a></p>
+																
+ 	
+<p class="item"><a href="/zfgw/">政府顾问团队</a></p>
+																
+ 	
+<p class="item"><a href="/zdls/">指导老师团队</a></p>
+																
+ 	
+<p class="item"><a href="/jlkp/">监理考评团队</a></p>
+																
+ 	
+<p class="item"><a href="/hwzx/">话务中心</a></p>
+																
+ 	
+<p class="item"><a href="/wazx/">文案中心</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/cpzs/"   target="_self"   class="nav-link clearfix"  >产品展示</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/yzdh/">业主大会</a></p>
+																
+ 	
+<p class="item"><a href="/wycjcy/">物业承接查验</a></p>
+																
+ 	
+<p class="item"><a href="/wykp/">物业考评</a></p>
+																
+ 	
+<p class="item"><a href="/hyzdpx/">行业指导培训</a></p>
+																
+ 	
+<p class="item"><a href="/fwal/">服务案例</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/wyxxp/"   target="_self"   class="nav-link clearfix"  >物业选续聘</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/flgf/"   target="_self"   class="nav-link clearfix"  >法律规范</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/flfg/">法律法规</a></p>
+																
+ 	
+<p class="item"><a href="/zcjx/">政策解析</a></p>
+																
+ 	
+<p class="item"><a href="/alfx/">案例分析</a></p>
+																
+ 	
+<p class="item"><a href="/gzmb/">工作模板</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/dgfw/"   target="_self"   class="nav-link clearfix"  >订购服务</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/xmzx/"   target="_self"   class="nav-link clearfix"  >项目资讯</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/zxzn/"   target="_self"   class="nav-link clearfix"  >物业管理事务智慧库</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/zxzx/">在线咨询</a></p>
+																
+ 	
+<p class="item"><a href="/wyfzj/">物业费质价相符估算系统</a></p>
+																
+ 	
+<p class="item"><a href="/wyfwkp/">物业服务考评系统</a></p>
+																
+ 	
+<p class="item"><a href="/slxt/">上邻系统</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/jmwm/"   target="_self"   class="nav-link clearfix"  >加盟我们</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/jmtj/">加盟条件</a></p>
+																
+ 	
+<p class="item"><a href="/job/">人才招聘</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+ 
+  
+
+                
+
+          
+        </ul>
+    </section>
+    <!--menuBox end-->
+    <p class="mtop"></p>
+
+    <!-- banner -->
+    
+  <section class="inside-pages-banner">
+   <div class="ipb-pic"><img src="/skin/default/nyban1.jpg" /></div>
+            <div class="ipb-words">
+                <h1 class="iwt1">企业活动</h1>
+                <span class="iwt2">NEWS</span>
+            </div>
+        </section>
+        <!-- tab -->
+        <p id="dinwei-box"></p>
+        <section class="inside-pages-tab"    >
+            <div class="ipt-link clearfix">
+                
+                
+   
+            	
+  <a href="/about/" class=””>关于我们</a>
+
+     
+            	
+  <a href="/qywh/" class=””>企业文化</a>
+
+     
+            	
+  <a href="/fwfw/" class=””>服务范围</a>
+
+     
+            	
+  <a href="/zzjg/" class=””>组织架构</a>
+
+     
+            	
+  <a href="/abouT/" class=active>企业活动</a>
+
+   
+               
+               
+            </div>
+        </section>
+        
+
+
+    <section class="industry-news1-wrap">
+        <ul class="news1-list">
+
+            
+ 
+   <li>
+                        <a href="/abouT/abuot/348.html" class="inw1-l clearfix">
+                        <div class="in1-pic">
+                                <img src="/d/file/p/2022/07-18/ae1c18782fcb87f1a2c5f3a93c3ec818.jpg" alt="热烈祝贺杭州星渡桥公司成功举办半年度年会" /></div>
+                            <div class="in1-words">
+                                <h2 class="iw1-txt1 eT">热烈祝贺杭州星渡桥公司成功举办半年度年会</h2>
+                                <p class="iw1-txt2">为中华复兴构筑安全、和谐、可持续的安居事业助力。<br />
+做人大气、处事霸气，专业智慧是底气，<br />
+上敢通天、下能入地，有容乃大方人性。<br />
+</p>
+                                <b class="iw1-more">more > </b>
+                            </div>
+                            <div class="in1-time">
+                                <font>发布时间</font>
+                                <em></em>
+                                <b>07-18</b>
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+
+
+
+        </ul>
+        <!-- 分页 -->
+        <div class="pages-list"> </div>
+    </section>
+
+
+     <footer class="footer-wrap">
+        <div class="w1200">
+            <div class="footer-link">
+                <p class="fl-tit">友情链接：</p>
+                <div class="fl-list">
+                    
+                   
+                    
+                </div>
+            </div>
+            <div class="footer-company-infor clearfix">
+                <div class="fci-left">
+                    <p>主办单位：杭州星渡桥信息技术有限公司 <a href="http://www.xingduqiao.com/e/manage/" target="_blank">后台登录</a> </p><p>地址：浙江省杭州市滨江区浦沿街道南环路4280号1幢328室 &nbsp; 电话：<a href="tel:4006869186">400-686-9186</a> &nbsp; 邮箱：
+366428886@qq.com</p><p>网址：
+www.xingduqiao.com</p><p>手机：
+18072828713
+
+
+19143584687
+</p><p><a href="https://www.miit.gov.cn/" target="_blank" >浙ICP备2021039508号-1</a> &nbsp; &nbsp; <a href="http://www.eqbang.com" target="_blank" >亿企邦</a></p>
+                </div>
+                <div class="fci-right clearfix">
+                     <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/gongzhonghao.png" class="vm" /></div><p>星渡桥微信公众号</p></div> 
+					 
+					 <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin.jpg" class="vm" /></div><p>星渡桥联系微信</p></div>
+					
+					<div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin2.jpg" class="vm" /></div><p>星渡桥联系微信</p></div> 
+					 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<style type="text/css">
+<!--
+.sidebar-right {
+    text-align: center;
+    width: 141px;
+    height: 463px;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-image: url(http://jzb.yuzosf.top/images/xuanfu_bg.png);
+    background-size: cover; padding-bottom:20px;
+}
+
+.sidebar-right>img {
+    margin-top: 14px;
+}
+
+.sidebar-right>h4 {
+    margin-top: 16px;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 18px;
+}
+
+.sidebar-right ul {
+    margin-top: 15px; 
+}
+
+.sidebar-right ul li {
+    display: inline-block;
+    width: 109px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    line-height: 34px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #bc2930;
+    cursor: pointer; list-style-type:none; margin:0px auto;
+}
+.sidebar-right ul li img{ width:20px; vertical-align:middle; margin-right:3px;}
+
+.sidebar-right ul li:hover {
+    color: #bc2930;
+    background: #ffff00;
+    font-weight: bold;
+}
+
+.sidebar-right ul li+li {
+    margin-top: 12px;
+}
+
+.sidebar-right p {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 12px;
+    margin-top: 16px;
+}
+
+.sidebar-right h5 {
+    font-size: 18px;
+    font-family: DINPro;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.sidebar-right .go-top{
+  margin-top: 10px;
+  display: none;
+}
+.sidebar-right .go-top img{
+  cursor: pointer;
+}
+-->
+</style>
+<div class="sidebar-right" >
+  <img src="http://jzb.yuzosf.top/images/cebian_ren.png" alt="">
+  <h4>在线客服</h4>
+  <ul style="padding:0px; ">
+    <li  onClick="window.open('https://wpa.qq.com/msgrd?v=3&uin=366428886&site=qq&menu=yes', '_blank');"><img src="http://jzb.yuzosf.top/images/qq2.png">客服一</li>
+   <li  onClick="window.open('https://wpa.qq.com/msgrd?v=3&uin=1991995617&site=qq&menu=yes', '_blank');"><img src="http://jzb.yuzosf.top/images/qq2.png">客服二</li>
+  <li  onClick="window.open('https://wpa.qq.com/msgrd?v=3&uin=1196334462&site=qq&menu=yes', '_blank');"><img src="http://jzb.yuzosf.top/images/qq2.png">客服三</li>
+  <li  onClick="window.open('https://wpa.qq.com/msgrd?v=3&uin=1726247323&site=qq&menu=yes', '_blank');"><img src="http://jzb.yuzosf.top/images/qq2.png">客服四</li>
+  </ul>
+  <p>7*24小时服务热线</p>
+  <h5>4006869186</h5>
+  <div class="go-top">
+    <img src="http://jzb.yuzosf.top/images/top.png" alt="">
+  </div>
+</div>
+
+<script src="/skin/default/plugin.js"></script>
+
+<script src="/skin/default/page.js"></script>
+
+    <script type="text/javascript">
+        $(".acb1-list ul li:even").addClass("al-fl");
+        $(".acb1-list ul li:odd").addClass("al-fr");
+    </script>
+
+<script type="text/javascript">
+    function toserch_key() {
+        var key = $('#txt_key').val();
+        if (key == '') {
+            $('#txt_key').focus();
+            return false;
+        }
+
+        window.location.href = "/e/search/result/?searchid=1";
+    }
+    function keydownEvent() {
+
+        var e = window.event || arguments.callee.caller.arguments[0];
+
+        if (e && e.keyCode == 13) {
+
+            toserch_key();
+
+        }
+
+    }
+    jQuery(function () {
+        $('#txt_key').keyup(function (event) {
+
+            if (event.keyCode == "13") {
+                toserch_key();
+                return false;
+            }
+
+        });
+
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

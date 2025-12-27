@@ -1,0 +1,463 @@
+<?php
+		define('empirecms','wm_chief');
+		$check_tbname='news';
+		$check_infoid=221;
+		$check_classid=10;
+		$check_path="../";
+		require("../e/class/CheckLevel.php");
+		?><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no" />
+<title>广州九丞资产管理与极致科技达成合作，加速推进企业智能化建设_星渡桥</title>
+<meta name="keywords" content="" />
+<meta name="description" content="广州九丞资产管理与极致科技达成合作，加速推进企业智能化建设" />
+<meta name="robots" content="All">
+
+    <link rel="stylesheet" type="text/css" href="/skin/default/style.css">
+    <link rel="stylesheet" type="text/css" href="/skin/default/responsive.css">
+    <script src="/skin/default/jquery.min.js"></script>
+    
+    
+    <!--[if lt IE 9]>
+		    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		    <style type="text/css">
+		        html{ margin-left: 0 !important;}
+		    </style>
+		<![endif]-->
+</head>
+
+<body>
+ <header class="header">
+        <div class="head-wrap">
+            <h1 class="head-logo"  style="" >
+                <a href="/">
+                    <img src="/skin/default/logo.png" class="img1" alt="星渡桥"   /><img src="/skin/default/logo.png" class="img2" alt="星渡桥"  /></a>
+            </h1>
+            <nav class="nav clearfix">
+                <ul>
+                    
+                  <li><a href="/"  target="_self"  class="yj-link">首页</a></li>				  
+				    
+        
+                        
+ <li class=><a href="/xxdh/"  target="_self"  class="yj-link">星星渡河</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/about/">关于我们</a></p>
+								
+								
+ 	
+<p><a href="/qywh/">企业文化</a></p>
+								
+								
+ 	
+<p><a href="/fwfw/">服务范围</a></p>
+								
+								
+ 	
+<p><a href="/zzjg/">组织架构</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/team/"  target="_self"  class="yj-link">团队阵容</a>
+                               
+				  
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=active><a href="/cpzs/"  target="_self"  class="yj-link">产品展示</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 	
+<p><a href="/yzdh/">业主大会</a></p>
+								
+								
+ 	
+<p><a href="/wyzjcy/">物业承接查验</a></p>
+								
+								
+ 	
+<p><a href="/wykp/">物业考评</a></p>
+								
+								
+ 	
+<p><a href="/hyzdpx/">行业指导培训</a></p>
+								
+								
+ 	
+<p><a href="/fwal/">服务案例</a></p>
+								
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/wyxxp/"  target="_self"  class="yj-link">物业选续聘</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/flfg/"  target="_self"  class="yj-link">法律法规</a>
+                               
+				  
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/dgfw/"  target="_self"  class="yj-link">订购服务</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/xmzx/"  target="_self"  class="yj-link">项目资讯</a>
+                               
+				  
+								  
+                            </li>
+
+                                
+       
+                        
+ <li class=><a href="/zhpt/"  target="_self"  class="yj-link">智慧平台</a>
+                               
+				 			
+							
+							    <div class='ej-list'>
+								
+ 
+	
+								
+								</div>  
+								
+								
+ 
+								  
+                            </li>
+
+                                
+ 
+              
+                                
+
+                        
+
+                   
+                </ul>
+            </nav>
+            <div class="head-search">
+			<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+			<input type="hidden" name="show" value="title" />
+<input type="hidden" name="tempid" value="1" />
+                <input type="text" name="keyboard" placeholder="内容搜索" id="txt_key" onKeyDown="keydownEvent()"  />
+                <a href="javascript:void(0);" type="submit" name="submit" class="search-icon" onClick="toserch_key()" ></a>
+			</form>	
+				
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="menu-handler">
+        <span></span>
+    </div>
+    <section class="menuBox" id="menuBox">
+        <ul class="menuMoblie" id="menuMoblie">
+
+                    <li><a href="/"   target="_self"   class="nav-link clearfix"  >首页</a>
+                            
+                    </li>
+                 
+<li><a href="/xxdh/"   target="_self"   class="nav-link clearfix"  >星星渡河</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/about/">关于我们</a></p>
+																
+ 	
+<p class="item"><a href="/qywh/">企业文化</a></p>
+																
+ 	
+<p class="item"><a href="/fwfw/">服务范围</a></p>
+																
+ 	
+<p class="item"><a href="/zzjg/">组织架构</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/team/"   target="_self"   class="nav-link clearfix"  >团队阵容</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/cpzs/"   target="_self"   class="nav-link clearfix"  >产品展示</a>
+                        <div class='subnav clearfix'>
+						
+
+						 	
+<p class="item"><a href="/yzdh/">业主大会</a></p>
+																
+ 	
+<p class="item"><a href="/wyzjcy/">物业承接查验</a></p>
+																
+ 	
+<p class="item"><a href="/wykp/">物业考评</a></p>
+																
+ 	
+<p class="item"><a href="/hyzdpx/">行业指导培训</a></p>
+																
+ 	
+<p class="item"><a href="/fwal/">服务案例</a></p>
+																
+ 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/wyxxp/"   target="_self"   class="nav-link clearfix"  >物业选续聘</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/flfg/"   target="_self"   class="nav-link clearfix"  >法律法规</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/dgfw/"   target="_self"   class="nav-link clearfix"  >订购服务</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/xmzx/"   target="_self"   class="nav-link clearfix"  >项目资讯</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+            
+<li><a href="/zhpt/"   target="_self"   class="nav-link clearfix"  >智慧平台</a>
+                        <div class='subnav clearfix'>
+						
+
+						 
+						
+						
+						</div>    
+                    </li>
+ 
+  
+
+                
+
+          
+        </ul>
+    </section>
+    <!--menuBox end-->
+    <p class="mtop"></p>   
+    
+
+
+    
+    <section class="news-detail-bg">
+			<div class="news-detail-wrap">
+				<h3 class="nd-title">广州九丞资产管理与极致科技达成合作，加速推进企业智能化建设</h3>
+				<p class="nd-desc"></p>
+				<div class="nd-time-share clearfix">
+					<div class="nts-time"><span>来源：<a href="/yzdh/">业主大会</a></span>&nbsp;&nbsp;&nbsp;<span> 发布时间：2021-10-14 15:50:21</span></div>
+					
+				</div>
+				<div class="nd-paragraph pageC">
+2019年1月，广州市九丞资产管理有限公司（以下简称&ldquo;九丞资产&rdquo;）与深圳市极致科技股份有限公司（以下简称&ldquo;极致科技&rdquo;）达成合作。<br /><br />九丞资产成立于2014年，公司自成立以来，一直本着诚信为本、积极开拓、优质服务的精神和专业、用心、负责的理念，在探索中发展，在创新中前行。作为成立不久的行业新秀，九丞资产凭借对行业发展趋势敏锐的洞察力，清晰的认识到建立智能化的物业管理信息化平台才是立足市场的重要举措。经过详尽的市场调研，深入分析对比市场主流服务商综合实力后，九丞资产选择与极致科技合作，为其管辖的银华大厦项目打造行业领先的物业管理信息化平台，推动物业管理服务模式智能化升级。<br /><br />该平台深度整合了互联网、云计算、大数据等新兴技术，可对所有部门、人员、设备、业务等进行全面的信息化覆盖，进而深度优化业务流程、业务标准、执行效率。其强大的数据运算能力和分析能力，能为九丞资产各项业务数据实时汇总上传保驾护航，实现管理工作中的实时数据化管理。报表智能化分级汇总及分析，能帮助九丞资产管理层更直观了解公司的实时运作状态和大厦的租赁经营情况。各功能模块之间可无缝链接，为九丞资产构建集中式、精细化的物业管理信息化平台提供支撑，达到提高效率、提升服务品质、降低成本的最终目的。<br /><br />与老客户的再度合作，正是极致科技凭借领先的技术和完备的解决方案以及优质服务再次获得认可的最好证明。感谢九丞资产的信任和支持，极致科技将一如既往全力以赴，以高标准严要求，做好极致物业管理信息化平台的落地与交付工作。<br /><br />项目展示：<br /><br /><img max-width="600" src="http://5b0988e595225.cdn.sohucs.com/images/20190214/b8ffd863c28c4941a8753416a62dea1d.png" /><br /><br />银华大厦<br /><br /><img max-width="600" src="http://5b0988e595225.cdn.sohucs.com/images/20190214/6204c4d4ed4640678c1bfffa3e674910.png" /><br /><br />银华大厦<br /><br />关于极致：<br /><br />深圳市极致科技股份有限公司成立于2005年，是专注于物业管理信息化和智慧社区业务的国家高新技术企业，拥有30多项软件著作权和专利。<br /><br />极致科技的产品包括极致物业管理软件、&ldquo;极致办公&rdquo;移动办公平台、&ldquo;极致社区&rdquo;社区运营平台，以及包括极致智能停车系统、极致智能门禁系统和极致智能对讲系统的智慧社区硬件平台。<br /><br />极致科技总部位于深圳市南山区科技园，在北京、上海、广州、武汉、成都、济南、苏州、兰州、乌鲁木齐等地设立有全资子公司或控股子公司，在全国各地有多家合作伙伴。<br /><br />极致科技以不断的知识积累和技术创新为前进动力，通过将物业管理信息化和智慧社区领域的产品和服务做到极致，来满足客户不断发展的应用需求，为客户创造价值。<br /><br />登陆极致科技官方网站了解更多详情：http://www.jeez.com.cn<br /><br /><img max-width="600" src="http://5b0988e595225.cdn.sohucs.com/images/20190214/02d68ea8dd204ca591bafc521e74b084.jpeg" />				    </div>
+				<div class="prev-next-news clearfix">
+					<p class="pn-news-sx">
+						<a href="/yzdh/220.html" class="eT">上一篇：荆州市荣盛物业上线极致云服务，助推企业快速转型升级</a>
+<a href="/yzdh/222.html" class="eT">下一篇：《流浪地球》中哪些重要细节透露出物业消防管理的重要性</a>
+
+					</p>
+					<a href="/yzdh/" class="pn-return-list">返回列表 >></a>
+				</div>
+			</div>
+		</section>
+    
+
+
+
+
+ 
+
+
+
+    <footer class="footer-wrap">
+        <div class="w1200">
+            <div class="footer-link">
+                <p class="fl-tit">友情链接：</p>
+                <div class="fl-list">
+                    
+                   
+                    
+                </div>
+            </div>
+            <div class="footer-company-infor clearfix">
+                <div class="fci-left">
+                    <p>主办单位：杭州星渡桥信息技术有限公司 </p><p>地址：杭州市滨江区诚业路415号A座3楼322室 &nbsp; 电话：<a href="tel:0571-57131307">0571-57131307</a> &nbsp; 邮箱：<a href="#">
+871834452@qq.com</a></p><p>网址：
+www.hzxingduqiao.com</p><p>手机：
+19941470603
+
+
+13870513215
+</p><p><a href="http://beian.miit.gov.cn/" target="_blank" textvalue="浙ICP备11021865号-1">浙ICP备11021865号-1</a> &nbsp; &nbsp; <a href="http://www.e7bang.com" target="_blank" textvalue="网站建设：亿企邦">网站建设：亿企邦</a></p>
+                </div>
+                <div class="fci-right clearfix">
+                     <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin.jpg" class="vm" /></div><p>星渡桥微信公众号</p></div> <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin.jpg" class="vm" /></div><p>星渡桥联系微信</p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="/skin/default/plugin.js"></script>
+
+<script src="/skin/default/page.js"></script>
+
+<script type="text/javascript">
+    function toserch_key() {
+        var key = $('#txt_key').val();
+        if (key == '') {
+            $('#txt_key').focus();
+            return false;
+        }
+
+        window.location.href = "/e/search/result/?searchid=1";
+    }
+    function keydownEvent() {
+
+        var e = window.event || arguments.callee.caller.arguments[0];
+
+        if (e && e.keyCode == 13) {
+
+            toserch_key();
+
+        }
+
+    }
+    jQuery(function () {
+        $('#txt_key').keyup(function (event) {
+
+            if (event.keyCode == "13") {
+                toserch_key();
+                return false;
+            }
+
+        });
+
+    });
+</script>
+
+
+
+
+
+</body>
+
+</html>

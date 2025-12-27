@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>高级搜索 - Powered by EmpireCMS</title>
+<link href="/skin/default/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/default/js/tabs.js"></script>
+<script src="/e/data/images/setday.js"></script>
+</head>
+<body class="listpage">
+<header class="header">
+        <div class="head-wrap">
+            <h1 class="head-logo"  style="" >
+                <a href="/">
+                    <img src="/skin/default/logo.png" class="img1" alt="<?=$public_r[sitename]?>"   /><img src="/skin/default/logo.png" class="img2" alt="<?=$public_r[sitename]?>"  /></a>
+            </h1>
+            <nav class="nav clearfix">
+                <ul>
+                    
+                  <?php
+    $i=0;
+    if($GLOBALS[navclassid]==""){
+        echo  '<li  class="active"><a href="/"  target="_self"  class="yj-link">首页</a></li>';
+        }
+    else {
+        echo  '<li><a href="/"  target="_self"  class="yj-link">首页</a></li>';
+        }
+?>
+				  
+				    
+ <?php
+$ecms_bq_sql=sys_ReturnEcmsLoopBq("select * from [!db.pre!]enewsclass where bclassid=0 order by myorder limit 10",14,24,0);
+$bqno=0;
+while($bqr=$empire->fetch($ecms_bq_sql))
+{
+$bqsr=sys_ReturnEcmsLoopStext($bqr);
+$bqno++;
+
+
+
+$classurl=sys_ReturnBqClassname($bqr,9);//取得栏目地址
+$bgcolor="";
+if($GLOBALS[navclassid])
+{
+$fcr=explode('|',$class_r[$GLOBALS[navclassid]][featherclass]);
+$topbclassid=$fcr[1]?$fcr[1]:$GLOBALS[navclassid];//取得当前栏目的一级栏目ID
+if($bqr[classid]==$topbclassid)
+{
+$bgcolor="active";
+}
+}
+
+?>       
+                        
+ <li class=<?=$bgcolor?>><a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>/"  target="_self"  class="yj-link"><?=sub($bqr[classname],0,54,false)?></a>
+                               
+				 <?php
+if(!$bqr[islast]) //判断是否终极栏目
+{
+?>			
+							
+							    <div class='ej-list'>
+								
+<?php
+$ecms_bq_sql2=sys_ReturnEcmsLoopBq("select * from [!db.pre!]enewsclass where bclassid=$bqr[classid] order by myorder limit 8",14,24,0);
+$bqno2=0;
+
+while($bqr2=$empire->fetch($ecms_bq_sql2))
+{
+$bqsr2=sys_ReturnEcmsLoopStext($bqr2);
+$bqno2++;
+?> 	
+<p><a href="<?=$public_r[newsurl]?><?=$bqr2[classpath]?>/"><?=sub($bqr2[classname],0,54,false)?></a></p>
+								
+								
+<?php
+}
+?> 
+	
+								
+								</div>  
+								
+								
+<?php
+}
+?> 
+								  
+                            </li>
+
+                                
+<?php
+}
+?> 
+              
+                                
+
+                        
+
+                   
+                </ul>
+            </nav>
+            <div class="head-search">
+			<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+			<input type="hidden" name="show" value="title" />
+<input type="hidden" name="tempid" value="1" />
+                <input type="text" name="keyboard" placeholder="内容搜索" id="txt_key" onKeyDown="keydownEvent()"  />
+ <button type="submit"  name='submit' class="search-icon" > </button>
+			</form>	
+				
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="menu-handler">
+        <span></span>
+    </div>
+    <section class="menuBox" id="menuBox">
+        <ul class="menuMoblie" id="menuMoblie">
+
+                    <li><a href="/"   target="_self"   class="nav-link clearfix"  >首页</a>
+                            
+                    </li>
+     <?php
+$ecms_bq_sql=sys_ReturnEcmsLoopBq("select * from [!db.pre!]enewsclass where bclassid=0 order by myorder limit 10",14,24,0);
+$bqno=0;
+while($bqr=$empire->fetch($ecms_bq_sql))
+{
+$bqsr=sys_ReturnEcmsLoopStext($bqr);
+$bqno++;
+
+?>            
+<li><a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>/"   target="_self"   class="nav-link clearfix"  ><?=sub($bqr[classname],0,54,false)?></a>
+                        <div class='subnav clearfix'>
+						
+
+						<?php
+$ecms_bq_sql2=sys_ReturnEcmsLoopBq("select * from [!db.pre!]enewsclass where bclassid=$bqr[classid] order by myorder limit 8",14,24,0);
+$bqno2=0;
+
+while($bqr2=$empire->fetch($ecms_bq_sql2))
+{
+$bqsr2=sys_ReturnEcmsLoopStext($bqr2);
+$bqno2++;
+?> 	
+<p class="item"><a href="<?=$public_r[newsurl]?><?=$bqr2[classpath]?>/"><?=sub($bqr2[classname],0,54,false)?></a></p>
+																
+<?php
+}
+?> 
+						
+						
+						</div>    
+                    </li>
+<?php
+}
+?> 
+  
+
+                
+
+          
+        </ul>
+    </section>
+    <!--menuBox end-->
+    <p class="mtop"></p>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+	<tr valign="top">
+		<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+				<tr>
+					<td>现在的位置：<a href='/'>首页</a>&nbsp;>&nbsp;<a href='../search/'>高级搜索</a>&nbsp;></td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+				<tr>
+					<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><form action='/e/search/index.php' method="post" name="search_news" id="search_news">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="54%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索范围</strong></td>
+													</tr>
+											</table></td>
+											<td width="46%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索栏目</strong></td>
+													</tr>
+											</table></td>
+										</tr>
+										<tr>
+											<td valign="top"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td><input type="radio" name="show" value="title" checked="checked" />
+															标题
+															<input type="radio" name="show" value="smalltext" />
+															简介
+															<input type="radio" name="show" value="newstext" />
+															内容
+															<input type="radio" name="show" value="writer" />
+															作者
+															<input name="show" type="radio" value="title,smalltext,newstext,writer" />
+															不限</td>
+													</tr>
+												</table>
+													<br />
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr bgcolor="#F4F4F4">
+															<td><strong>时间限制</strong><font color="#666666">(0000-00-00为不限制)</font></td>
+														</tr>
+														<tr>
+															<td height="30" valign="top">从
+																<input name="starttime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																到
+																<input name="endtime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																之间的数据</td>
+														</tr>
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>价格限制</strong><font color="#666666">(商城模型中有效,0为不限制)</font></td>
+														</tr>
+														<tr>
+															<td>从
+																<input name="startprice" type="text" id="startprice" value="0" size="6" />
+																到
+																<input name="endprice" type="text" id="endprice" value="0" size="6" />
+																元之间</td>
+														</tr>
+												</table></td>
+											<td valign="top"><table width="100%" border="0" cellspacing="6" cellpadding="0">
+													<tr>
+														<td><select name="classid" size="8" id="select2" style="width: 100%;height:112px">
+																<option value="0" selected="selected">所有栏目</option>
+															<option value='1'>|-星星渡河</option><option value='9'>&nbsp;&nbsp;|-关于我们</option><option value='15'>&nbsp;&nbsp;|-企业文化</option><option value='16'>&nbsp;&nbsp;|-服务范围</option><option value='17'>&nbsp;&nbsp;|-组织架构</option><option value='2'>|-团队阵容</option><option value='18'>&nbsp;&nbsp;|-总经理风采</option><option value='19'>&nbsp;&nbsp;|-政府顾问团队</option><option value='20'>&nbsp;&nbsp;|-指导老师团队</option><option value='21'>&nbsp;&nbsp;|-监理考评团队</option><option value='22'>&nbsp;&nbsp;|-话务中心</option><option value='23'>&nbsp;&nbsp;|-文案中心</option><option value='3'>|-产品展示</option><option value='10'>&nbsp;&nbsp;|-业主大会</option><option value='11'>&nbsp;&nbsp;|-物业承接查验</option><option value='12'>&nbsp;&nbsp;|-物业考评</option><option value='13' style='background:#99C4E3'>&nbsp;&nbsp;|-行业指导培训</option><option value='14'>&nbsp;&nbsp;|-服务案例</option><option value='4' style='background:#99C4E3'>|-物业选续聘</option><option value='5'>|-法律规范</option><option value='24' style='background:#99C4E3'>&nbsp;&nbsp;|-法律法规</option><option value='25' style='background:#99C4E3'>&nbsp;&nbsp;|-政策解析</option><option value='26' style='background:#99C4E3'>&nbsp;&nbsp;|-案例分析</option><option value='27' style='background:#99C4E3'>&nbsp;&nbsp;|-工作模板</option><option value='6'>|-订购服务</option><option value='7' style='background:#99C4E3'>|-项目资讯</option><option value='8'>|-智慧平台</option><option value='28'>&nbsp;&nbsp;|-下载上邻</option><option value='29'>&nbsp;&nbsp;|-产品背景</option><option value='30'>&nbsp;&nbsp;|-产品展示</option><option value='31'>|-加盟我们</option><option value='32'>&nbsp;&nbsp;|-加盟条件</option><option value='33' style='background:#99C4E3'>&nbsp;&nbsp;|-人才招聘</option>
+          
+														</select></td>
+													</tr>
+												</table>
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>结果显示</strong></td>
+														</tr>
+														<tr>
+															<td height="30"><select name="orderby" id="select4">
+																	<option value="">按发布日期</option>
+																	<option value="id">信息ID</option>
+																	<option value="plnum">评论数</option>
+																	<option value="onclick">人气</option>
+																	<option value="totaldown">下载数</option>
+																</select>
+																	<select name="myorder" id="select5">
+																		<option value="0">倒序排列</option>
+																		<option value="1">顺序排列</option>
+																	</select>
+															</td>
+														</tr>
+												</table></td>
+										</tr>
+									</table>
+								<table width="100%" border="0" cellpadding="4" cellspacing="0">
+										<tr>
+											<td>关键字：
+												<input name="keyboard" type="text" id="keyboard2" size="60" />
+													<input type="submit" name="Submit22" value="搜索" />
+											</td>
+										</tr>
+									</table>
+							</form></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table></td>
+	</tr>
+</table>
+    <footer class="footer-wrap">
+        <div class="w1200">
+            <div class="footer-link">
+                <p class="fl-tit">友情链接：</p>
+                <div class="fl-list">
+                    
+[phomelink]8,30,0,0,0[/phomelink]
+                   
+                    
+                </div>
+            </div>
+            <div class="footer-company-infor clearfix">
+                <div class="fci-left">
+                    <p>主办单位：杭州星渡桥信息技术有限公司 <a href="http://www.xingduqiao.com/e/manage/" target="_blank">后台登录</a> </p><p>地址：浙江省杭州市滨江区浦沿街道南环路4280号1幢328室 &nbsp; 电话：<a href="tel:0571-57172897">0571-57172897</a> &nbsp; 邮箱：
+366428886@qq.com</p><p>网址：
+www.xingduqiao.com</p><p>手机：
+18072828713
+
+
+19143584687
+</p><p><a href= https://beian.miit.gov.cn/ target="_blank" >浙ICP备2021039508号-1</a> &nbsp; &nbsp; <a href="http://www.eqbang.com" target="_blank" >亿企邦</a></p>
+                </div>
+                <div class="fci-right clearfix">
+                     <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/gongzhonghao.png" class="vm" /></div><p><?=$public_r[sitename]?>微信公众号</p></div> 
+					 
+					 <div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div>
+					
+					<div class="fr-ewm"><div class="ewm-pic"><img src="/skin/default/weixin2.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div> 
+					 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="/skin/default/plugin.js"></script>
+
+<script src="/skin/default/page.js"></script>
+
+    <script type="text/javascript">
+        $(".acb1-list ul li:even").addClass("al-fl");
+        $(".acb1-list ul li:odd").addClass("al-fr");
+    </script>
+
+<script type="text/javascript">
+    function toserch_key() {
+        var key = $('#txt_key').val();
+        if (key == '') {
+            $('#txt_key').focus();
+            return false;
+        }
+
+        window.location.href = "/e/search/result/?searchid=1";
+    }
+    function keydownEvent() {
+
+        var e = window.event || arguments.callee.caller.arguments[0];
+
+        if (e && e.keyCode == 13) {
+
+            toserch_key();
+
+        }
+
+    }
+    jQuery(function () {
+        $('#txt_key').keyup(function (event) {
+
+            if (event.keyCode == "13") {
+                toserch_key();
+                return false;
+            }
+
+        });
+
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
