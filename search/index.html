@@ -1,18 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <base href="/xdq_offical_code/">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>高级搜索 - Powered by EmpireCMS</title>
-<link href="./skin/default/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="./skin/default/js/tabs.js"></script>
-<script src="./e/data/images/setday.js"></script>
+<link href="skin/default/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="skin/default/js/tabs.js"></script>
+<script src="e/data/images/setday.js"></script>
 </head>
 <body class="listpage">
 <header class="header">
         <div class="head-wrap">
             <h1 class="head-logo"  style="" >
-                <a href="./">
-                    <img src="./skin/default/logo.png" class="img1" alt="<?=$public_r[sitename]?>"   /><img src="./skin/default/logo.png" class="img2" alt="<?=$public_r[sitename]?>"  /></a>
+                <a href="">
+                    <img src="skin/default/logo.png" class="img1" alt="<?=$public_r[sitename]?>"   /><img src="skin/default/logo.png" class="img2" alt="<?=$public_r[sitename]?>"  /></a>
             </h1>
             <nav class="nav clearfix">
                 <ul>
@@ -20,10 +22,10 @@
                   <?php
     $i=0;
     if($GLOBALS[navclassid]==""){
-        echo  '<li  class="active"><a href="./"  target="_self"  class="yj-link">首页</a></li>';
+        echo  '<li  class="active"><a href=""  target="_self"  class="yj-link">首页</a></li>';
         }
     else {
-        echo  '<li><a href="./"  target="_self"  class="yj-link">首页</a></li>';
+        echo  '<li><a href=""  target="_self"  class="yj-link">首页</a></li>';
         }
 ?>
 				  
@@ -100,7 +102,7 @@ $bqno2++;
                 </ul>
             </nav>
             <div class="head-search">
-			<form action="./e/search/index.php" method="post" name="searchform" id="searchform">
+			<form action="e/search/index.php" method="post" name="searchform" id="searchform">
 			<input type="hidden" name="show" value="title" />
 <input type="hidden" name="tempid" value="1" />
                 <input type="text" name="keyboard" placeholder="内容搜索" id="txt_key" onKeyDown="keydownEvent()"  />
@@ -119,7 +121,7 @@ $bqno2++;
     <section class="menuBox" id="menuBox">
         <ul class="menuMoblie" id="menuMoblie">
 
-                    <li><a href="./"   target="_self"   class="nav-link clearfix"  >首页</a>
+                    <li><a href=""   target="_self"   class="nav-link clearfix"  >首页</a>
                             
                     </li>
      <?php
@@ -296,11 +298,11 @@ www.xingduqiao.com</p><p>手机：
 </p><p><a href= https://beian.miit.gov.cn/ target="_blank" >浙ICP备2021039508号-1</a> &nbsp; &nbsp; <a href="http://www.eqbang.com" target="_blank" >亿企邦</a></p>
                 </div>
                 <div class="fci-right clearfix">
-                     <div class="fr-ewm"><div class="ewm-pic"><img src="./skin/default/gongzhonghao.png" class="vm" /></div><p><?=$public_r[sitename]?>微信公众号</p></div> 
+                     <div class="fr-ewm"><div class="ewm-pic"><img src="skin/default/gongzhonghao.png" class="vm" /></div><p><?=$public_r[sitename]?>微信公众号</p></div> 
 					 
-					 <div class="fr-ewm"><div class="ewm-pic"><img src="./skin/default/weixin.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div>
+					 <div class="fr-ewm"><div class="ewm-pic"><img src="skin/default/weixin.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div>
 					
-					<div class="fr-ewm"><div class="ewm-pic"><img src="./skin/default/weixin2.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div> 
+					<div class="fr-ewm"><div class="ewm-pic"><img src="skin/default/weixin2.jpg" class="vm" /></div><p><?=$public_r[sitename]?>联系微信</p></div> 
 					 
                 </div>
             </div>
@@ -309,9 +311,9 @@ www.xingduqiao.com</p><p>手机：
 
 
 
-<script src="./skin/default/plugin.js"></script>
+<script src="skin/default/plugin.js"></script>
 
-<script src="./skin/default/page.js"></script>
+<script src="skin/default/page.js"></script>
 
     <script type="text/javascript">
         $(".acb1-list ul li:even").addClass("al-fl");
@@ -326,7 +328,7 @@ www.xingduqiao.com</p><p>手机：
             return false;
         }
 
-        window.location.href = "./e/search/result/?searchid=1";
+        window.location.href = "e/search/result/?searchid=1";
     }
     function keydownEvent() {
 
