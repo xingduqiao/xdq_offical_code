@@ -406,7 +406,7 @@ $bgcolor=active;
             </div>
             <div class="footer-company-infor clearfix">
                 <div class="fci-left">
-                    <p>主办单位：杭州星渡桥信息技术有限公司 <a href="http://www.xingduqiao.com/e/manage/" target="_blank">后台登录</a> </p><p>地址：浙江省杭州市滨江区浦沿街道南环路4280号1幢328室 &nbsp; 电话：<a href="tel:0571-57172897">0571-57172897</a> &nbsp; 邮箱：
+                    <p>主办单位：杭州星渡桥信息技术有限公司  </p><p>地址：浙江省杭州市滨江区浦沿街道南环路4280号1幢328室 &nbsp; 电话：<a href="tel:0571-57172897">0571-57172897</a> &nbsp; 邮箱：
 366428886@qq.com</p><p>网址：
 www.xingduqiao.com</p><p>手机：
 18072828713
